@@ -40,19 +40,24 @@ section{
 
 .p-personajes{
     font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .spanDiv{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
+    
 }
 
 span{
     font-size:large;
     color: #fff;
-    margin: 0 7px;
+    margin-top: 25px;
 }
 
 .numRandom1{

@@ -44,7 +44,7 @@ const personajeRandom = () =>{
     pPersonajes.className = "p-personajes";
 
     pPersonajes.innerHTML=`
-    El personaje que eres esta navidad es 
+    El personaje que eres esta navidad es:  
     <span>${el.personaje}</span>
     `
     numRandom.append(pPersonajes)
