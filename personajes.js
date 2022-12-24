@@ -47,6 +47,27 @@ const xmasCaracters = [
         id:12,
         personaje: "Pastorcillo"
     },
+    {
+        id:13,
+        personaje: "Baston de Caramelo"
+    },
+    {
+        id:14,
+        personaje: "Juguete"
+    },
+    {
+        id:15,
+        personaje: "Regalo"
+    },
+    {
+        id:16,
+        personaje: "Arbol"
+    },
+    {
+        id:17,
+        personaje: "Bebote"
+    }
+
 ];
 
 
@@ -98,5 +119,22 @@ const caracteristicas = [
     {
         id:12,
         caracteristica: "Mentiroso"
-    }
+    },
+    {
+        id:13,
+        caracteristica: "Satanico"
+    },
+    {
+        id:14,
+        caracteristica: "Sexy"
+    },
+    {
+        id:15,
+        caracteristica: "Jugueton"
+    },
+    {
+        id:16,
+        caracteristica: "Travieso"
+    },
+
 ]
