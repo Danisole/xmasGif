@@ -35,7 +35,7 @@ h1, h2{
 }
 section{
 
-    min-height: 85vh;
+    min-height: 80vh;
 }
 
 .p-personajes{
@@ -85,13 +85,15 @@ span{
     color: #fff;
 }
 
-.tenor-gif-embed{
-    width: 10px;
+img{
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+
 
 footer{
     display: flex;
