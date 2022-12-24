@@ -13,7 +13,6 @@ body{
 }
 
 header{
-    margin-top: 100px;
     background-color:#B60203;
     padding: 10px 0;
 }
@@ -24,20 +23,23 @@ h1, h2{
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    font-size: medium;
 }
 .numRandom{
     margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 section{
 
-    min-height: 78vh;
+    min-height: 85vh;
 }
 
 .p-personajes{
-    font-size: 30px;
+    font-size: large;
 }
 
 .spanDiv{
@@ -48,7 +50,7 @@ section{
 }
 
 span{
-    font-size: 40px;
+    font-size:large;
     color: #fff;
     margin: 0 7px;
 }
@@ -68,14 +70,22 @@ span{
     background-color: #fcefb4;
     width: 200px;
     height: 60px;
-    border-radius: 8px;
-    font-size: 30px;
+    border-radius: 10px;
+    font-size: 25px;
     cursor: pointer;
 }
 
 .btn-personaje:hover{
     background-color: #B60203;
     color: #fff;
+}
+
+.tenor-gif-embed{
+    width: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{

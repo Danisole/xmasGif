@@ -67,7 +67,7 @@ const personajeRandom = () =>{
 
     const btnPersonaje = document.createElement("button")
     
-    btnPersonaje.innerText = "Aprieta"
+    btnPersonaje.innerText = "Presionar"
     btnPersonaje.className = "btn-personaje"
 
     const miPersonaje = btnPersonaje.addEventListener("click", personajeRandom)
