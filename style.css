@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 
 *{
     margin: 0;
@@ -92,7 +93,15 @@ img{
     align-items: center;
 
 }
-
+.xmasMessege{
+    font-family: 'Passions Conflict', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 60px;
+    color: #fff;
+}
 
 
 footer{
