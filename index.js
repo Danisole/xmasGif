@@ -1,13 +1,12 @@
 const numRandom = document.getElementById("numRandom")
 const numRandom1 = document.getElementById("numRandom1")
-const numRandom2 = document.getElementById("numRandom2")
+
 
 
 const personajeRandom = () =>{
 
     numRandom.innerHTML="";
     numRandom1.innerHTML="";
-    numRandom2.innerHTML="";
 
     //Math random para crear un numero aleatorio
 
@@ -61,7 +60,7 @@ const personajeRandom = () =>{
         spanCaracteristica.innerHTML=`
         ${element.caracteristica}`
         
-        numRandom2.append(spanCaracteristica)
+        numRandom.append(spanCaracteristica)
     })
 
     //generamos el boton para que comience la magia
